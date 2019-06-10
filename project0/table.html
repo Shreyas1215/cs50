@@ -1,6 +1,7 @@
 <<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel = "stylesheet" type="text/css" href = "style.css"
     <meta charset="utf-8">
     <title>Tables</title>
   </head>
@@ -10,13 +11,21 @@
         border : 2px solid black;
         border-collapse : collapse;
         width : 50%;
+        table-layout: auto;
+        table-align : center;
       }
       th, td {
         border : 1px solid black;
         padding : 5px;
         text-align : center;
       }
+      table :: selection {
+        color : red;
+        background-color: blue;
+      }
     </style>
+    <p>Following are the type advantages between different elements</p>
+
     <table>
       <tr>
         <th>Type</th>
