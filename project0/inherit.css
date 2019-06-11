@@ -1,0 +1,15 @@
+.pikachu, .bulbasaur {
+  font-size: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  border: 20px; }
+
+.pikachu {
+  color: orange; }
+
+.bulbasaur {
+  color: green; }
+
+/*# sourceMappingURL=inherit.css.map */

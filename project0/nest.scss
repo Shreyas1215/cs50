@@ -1,0 +1,15 @@
+$color : grey;
+div {
+  p {
+    font-size: 20px;
+    color : $color;
+  }
+  ol {
+    background-color:blue;
+    color : black;
+  }
+  ul {
+    background-color: green;
+    color : red;
+  }
+}
