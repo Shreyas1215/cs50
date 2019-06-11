@@ -1,0 +1,15 @@
+Welcome to project0.
+
+This project contains 4 html files.
+
+The main file is named as project0.html.
+
+The other files are
+
+1) pikachu.html - contains an image of pikachu
+
+2) list.html - contains an ordered and unordered list.
+
+3) table.html - contains a table.
+
+CSS styling is applied to every html page. Additional bootstrap is applied to project0.html, table.html and list.html.
