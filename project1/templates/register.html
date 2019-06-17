@@ -1,0 +1,23 @@
+{% extends layout.html %}
+
+{% block title %}
+  Register
+{% endblock %}
+<style media="screen">
+    div, h2 {
+      text-align: center;
+    }
+</style>
+
+{% block body %}
+  <div>
+    <h2>Enter your details</h2>
+    <form action = "{{ url_for('login.html') }} method = "get">
+      <input type = text placeholder = username><br>
+      <input type = password placeholder = password><br>
+      <input type = password placeholder = re-enter-password><br>
+      <input type = submit placeholder="submit"><br>
+    </form>
+    </div>
+
+{% endblock %}
